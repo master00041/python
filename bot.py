@@ -9,9 +9,9 @@ from time import sleep
 reload(sys)
 sys.setdefaultencoding("utf-8")
 redis = r.StrictRedis(host='localhost', port=6379, db=0)
-token = '' # Your Token Here
+token = '251565187:AAF-6tY6G7_vasqQmngmReTAwmNskZKJrAU' # Your Token Here
 bot = telebot.TeleBot(token)
-admin = 224976780
+admin = 170172168
 
 #Start Project!
 
